@@ -1,55 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>City Pulse</title>
     <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-  <style>
-      .container {
-          display: flex;
-          align-items: center;
-      }
-      .text {
-          margin-left: 20px;
-      }
-      
-      body {
-          font-family: Arial, sans-serif;
-      }
+<style>
+    .container {
+        display: flex;
+        align-items: center;
+    }
 
-      .navbar {
-          background-color: #333;
-          overflow: hidden;
-      }
+    .text {
+        margin-left: 20px;
+    }
 
-      .navbar a {
-          float: left;
-          display: block;
-          color: #f2f2f2;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-          font-size: 17px;
-      }
+    body {
+        font-family: Arial, sans-serif;
+    }
 
-      .navbar a:hover {
-          background-color: #ddd;
-          color: black;
-      }
+    .navbar {
+        background-color: #333;
+        overflow: hidden;
+    }
 
-      .navbar a.active {
-          background-color: #4CAF50;
-          color: white;
-      }
-      .hero {
-                display: flex;
-                justify-content: space-evenly;
-        }
-  </style>
-  
+    .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .navbar a.active {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    .hero {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .footer-attractive {
+        background-color: #1d1d1d;
+        color: #f1f1f1;
+        padding: 60px 0;
+        text-align: left;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .footer-column {
+        flex-basis: 22%;
+        padding: 20px;
+    }
+
+    .footer-column h3 span,
+    .footer-column h4 {
+        color: #5383d3;
+    }
+
+    .footer-column p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .footer-column a {
+        text-decoration: none;
+        color: #f1f1f1;
+        transition: color 0.3s;
+    }
+
+    .footer-column a:hover {
+        color: #5383d3;
+    }
+
+    .footer-links {
+        list-style: none;
+        padding: 0;
+    }
+
+    .footer-links li {
+        margin: 10px 0;
+    }
+
+    .footer-links li a {
+        font-size: 14px;
+        display: block;
+    }
+
+    .social-icons a {
+        color: #f1f1f1;
+        font-size: 40px;
+        margin-right: 10px;
+        transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+        color: #5383d3;
+    }
+
+    .footer-bottom {
+        background-color: #121212;
+        padding: 20px 0;
+        text-align: center;
+        font-size: 14px;
+        border-top: 1px solid #333;
+    }
+
+    .footer-bottom p {
+        margin: 0;
+        color: #f1f1f1;
+    }
+</style>
+
 <body>
     <nav class="navbar">
         <div class="container">
@@ -57,29 +141,35 @@
                 <img src="logo.jpg" style="height: 100px;border-radius: 10px;margin-left:20px;">
             </a>
             <a href="index.html" class="active">Home 🏠</a>
-                    <a href="SE_solutions.html">SE Solutions 🌿</a>
-                    <a href="green_transport.html">Green Transport 🚗</a>
-                    <a href="Smart_Tech.html">Smart Tech 🏢</a>
-                    <a href="blog.html">Blog 📝</a>
-                    <a href="contact_us.html">Contact Us 📞</a>
-            </nav>
+            <a href="SE_solutions.html">SE Solutions 🌿</a>
+            <a href="green_transport.html">Green Transport 🚗</a>
+            <a href="Smart_Tech.html">Smart Tech 🏢</a>
+            <a href="blog.html">Blog 📝</a>
+            <a href="contact_us.html">Contact Us 📞</a>
+    </nav>
 
     <br>
-    
+
     <div class="container">
         <img src="logo.jpg" width="300">
         <div class="text">
             <h1>City Pulse</h1>
-            <p>City Pulse is a platform dedicated to proposing and showcasing smart city solutions focused on sustainability, transportation, and technology. The website serves as a hub for exploring innovative ideas that contribute to the development of eco-friendly, efficient, and technologically advanced urban environments.</p> 
+            <p>City Pulse is a platform dedicated to proposing and showcasing smart city solutions focused on
+                sustainability, transportation, and technology. The website serves as a hub for exploring innovative
+                ideas that contribute to the development of eco-friendly, efficient, and technologically advanced urban
+                environments.</p>
         </div>
-            </div>
+    </div>
 
     <p>The image below is a link. Click on it to know how much energy it generates for the city.</p>
-        <a href="#wind_turbine"><img src="1.jpg" style="width:400px; height:300px; margin-right:850px;"></a>
+    <a href="#wind_turbine"><img src="1.jpg" style="width:400px; height:300px; margin-right:850px;"></a>
 
     <div id="wind_turbine">
-        <p>Wind power generation in India has increased considerably in the last few years. In 2023, the country produced roughly 82.1 terawatt-hours of electricity from wind energy. India's wind capacity target for 2030 is 170 gigawatts. To achieve this goal, India needs to quadruple its wind energy capacity in the coming years.
-        <a href="https://saspartners.com/wind-energy-in-india-an-overview/">Know More </a> 
+        <p>Wind power generation in India has increased considerably in the last few years. In 2023, the country
+            produced roughly 82.1 terawatt-hours of electricity from wind energy. India's wind capacity target for 2030
+            is 170 gigawatts. To achieve this goal, India needs to quadruple its wind energy capacity in the coming
+            years.
+            <a href="https://saspartners.com/wind-energy-in-india-an-overview/">Know More </a>
             <img src="2.png">
             <img src="3.png">
             <img src="4.png">
@@ -87,6 +177,54 @@
             <img src="6.png">
         </p>
     </div>
-    
+
+    <footer class="footer-attractive">
+
+        <div class="footer-container">
+
+            <!-- About Us Section -->
+            <div class="footer-column">
+                <h3>City<span>Pulse</span></h3>
+                <p>Your hub for smart city solutions, sustainability, and innovative ideas. Join us in shaping the
+                    cities of tomorrow.</p>
+            </div>
+
+            <!-- Links Section -->
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home 🏠</a></li>
+                    <li><a href="SE_solutions.html">SE Solutions 🌿</a></li>
+                    <li><a href="green_transport.html">Green Transport 🚗</a></li>
+                    <li><a href="Smart_Tech.html">Smart Tech 🏢</a></li>
+                    <li><a href="blog.html">Blog 📝</a></li>
+                    <li><a href="contact_us.html">Contact Us 📞</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-column">
+                <h4>Contact Us</h4>
+                <p><i class="fa fa-map-marker"></i> Chennai, Tamil Nadu, India </p>
+                <p><i class="fa fa-envelope"></i> <a href="bhargavvenkat00@gmail.com">bhargavvenkat00@gamil.com</a></p>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="footer-column">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="http://Wa.me/+918838310943"><i class="fa fa-whatsapp"></i></a>
+                    <a href="https://youtube.com/@alapoyz_1211?si=FxTRtqkfYBKZ9c3E"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 City Pulse. All rights reserved. | Designed for the future.</p>
+        </div>
+    </footer>
+
+
 </body>
+
 </html>
